@@ -30,9 +30,14 @@ img{
 }
 
 @media only screen and (max-device-width: 700px) {
+
+    body{
+    
+        margin: 5%;
+    }
     img{
-        width: 80%;
-        height: 80vh;
+        width: 90%;
+        height: 100%;
         
     }
     }
