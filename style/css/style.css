@@ -10,34 +10,29 @@
 
 }
 
-
-body{
-    
-    text-align: center;
-    margin: 2%;
-}
-
 .container{
+    
      height: 100%;
     width: 100%;
-    object-fit: cover;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 
 }
 img{
     
     height: 90vh;
+    object-fit: contain;
+    position: relative;
 }
 
 @media only screen and (max-device-width: 700px) {
 
-    body{
-    
-        margin: 5% 0% ;
-    }
     img{
         width: 90%;
-        height: 100%;
+        height: 90%;
         
     }
     }
